@@ -1,5 +1,7 @@
 :root {
-  --primary-color: #759fbc;
+  --primary-color: #90c3c8;
+  --heading: "Kiwi Maru", serif;
+  --regular: "Montserrat", sans-serif;
 }
 
 body {
@@ -14,17 +16,17 @@ body {
 
 .hero p {
   font-size: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--regular);
 }
 
 h1 {
-  font-family: "Kiwi Maru", serif;
+  font-family: var(--heading);
   font-size: 60px;
 }
 
 h2 {
   font-size: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--regular);
 }
 
 .btn {
