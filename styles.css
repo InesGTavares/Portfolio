@@ -71,7 +71,7 @@ h1 {
   margin-bottom: 50px;
 }
 
-@media (max-width: 902px) {
+@media (max-width: 994px) {
   .description {
     text-align: center;
   }
