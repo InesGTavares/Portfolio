@@ -78,14 +78,14 @@ h1 {
   }
 }
 
-.about-page {
-  padding: 180px 20px;
-}
-
 .about-page .col-6 {
   display: block;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.about-page {
+  padding: 180px 20px;
 }
 
 .about-page h1 {
@@ -98,4 +98,8 @@ h1 {
 
 .about-page p {
   margin-top: 50px;
+}
+
+.img-me {
+  margin-top: -50px;
 }
