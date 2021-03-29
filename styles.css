@@ -23,7 +23,7 @@ h2 {
 
 h1 {
   font-family: var(--heading);
-  font-size: 60px;
+  font-size: 64px;
 }
 
 .contact-button {
@@ -44,6 +44,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
 }
 
 .description {
@@ -75,4 +76,26 @@ h1 {
   .description {
     text-align: center;
   }
+}
+
+.about-page {
+  padding: 180px 20px;
+}
+
+.about-page .col-6 {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.about-page h1 {
+  font-size: 48px;
+}
+
+.about-page h2 {
+  font-size: 18px;
+}
+
+.about-page p {
+  margin-top: 50px;
 }
