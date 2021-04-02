@@ -78,25 +78,32 @@ h1 {
   }
 }
 
-.about-page .col-6 {
+.content-container .col-6 {
   display: block;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.about-page {
+.content-container {
   padding: 180px 20px;
 }
 
-.about-page h1 {
+.content-container h1 {
   font-size: 48px;
 }
 
-.about-page h2 {
+.content-container h2 {
   font-size: 18px;
 }
 
-.about-page p {
+.content-container h3 {
+  font-family: var(--regular);
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 900;
+}
+
+.text {
   margin-top: 50px;
 }
 
