@@ -110,3 +110,12 @@ h1 {
 .img-me {
   margin-top: -50px;
 }
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgb(117, 117, 117);
+}
