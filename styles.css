@@ -4,6 +4,40 @@
   --regular: "Montserrat", sans-serif;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: var(--regular);
+}
+
+nav .active a {
+  color: var(--primary-color);
+}
+
+nav a:hover {
+  color: rgb(117, 117, 117);
+  transition: all 100ms ease-in-out;
+}
+
 .hero {
   background: var(--primary-color);
   text-align: center;
@@ -75,6 +109,10 @@ h1 {
 @media (max-width: 994px) {
   .description {
     text-align: center;
+  }
+
+  nav a {
+    font-size: 13px;
   }
 }
 
